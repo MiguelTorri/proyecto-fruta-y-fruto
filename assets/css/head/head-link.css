@@ -1,0 +1,13 @@
+.head__link {
+    color: #808080;
+    margin-right: 1.5rem;
+    text-decoration: none;
+}
+
+.head__link:hover{
+    text-decoration: underline;
+}
+
+.head__link.activo{
+    color: #333333;
+}

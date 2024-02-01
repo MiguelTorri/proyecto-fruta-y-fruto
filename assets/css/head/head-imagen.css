@@ -1,0 +1,12 @@
+@media screen and (min-width: 0) {
+    .head__imagen {
+        display: none;
+    }
+    
+}
+
+@media screen and (min-width: 768px) {
+    .head__imagen {
+        display: block;
+    }
+}

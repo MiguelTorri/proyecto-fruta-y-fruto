@@ -7,3 +7,19 @@
     padding-right: 2rem;
 
 }
+
+@media screen and (min-widht:0) {
+    .head {
+        padding: 0 1rem;
+        justify-content: center;
+    }
+
+}
+   
+@media screen and (min-widht:768px) {
+    .head {
+        padding: 0 5rem;
+        justify-content: space-between;
+    }
+
+}

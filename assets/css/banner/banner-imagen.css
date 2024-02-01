@@ -4,6 +4,18 @@
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: calc(100vh - 250px);
+    
 
+}
+
+@media screen and (min-width:0) {
+    .banner__imagen {
+        height: calc(100vh - 200px);
+    }
+}
+
+@media screen and (min-width:768px) {
+    .banner__imagen {
+        height: calc(100vh - 250px);
+    }
 }
